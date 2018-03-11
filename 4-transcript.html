@@ -1,24 +1,23 @@
 
-<html>
-<head>
+<html><head>
   <meta charset="utf-8" /> <!-- for working locally -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Live Replay</title>
 
   <!--=====|||||     Scripts to Remove on Iris  |||||=====-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
   <!--=====|||||     Scripts to Remove on Iris  |||||=====-->
 
 
    <!--=====|||||     Scripts to Stay  |||||=====-->
-    <script src="https://d13p2xj50zkyqm.cloudfront.net/scripts/promo_function.js"></script>
+<script src="https://d13p2xj50zkyqm.cloudfront.net/scripts/promo_function.js"></script>
   <!--=====|||||     Scripts to Stay  |||||======-->
 
 
     <!--===== /Exitpop Script =====-->
-    <script>
+<script>
       setTimeout(function(){
         function addEvent(obj, evt, fn) {
            if (obj.addEventListener) {
@@ -47,11 +46,12 @@
   <!--===== /Exitpop Script =====-->
 
   <!--=====  SCRIPT ====-->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/siema@1.4.14/dist/siema.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/siema@1.4.14/dist/siema.min.js"></script>
   <!--=====  / SCRIPT ====-->
   <!--=====  CSS ====-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 
   <!--=====  / CSS ====-->
   <!--=====  Fonts ====-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i" rel="stylesheet">
@@ -70,13 +70,21 @@
 	font-size: 26px;
 	font-weight: 700;
 	color: #004a8b;
-	margin-top: 0;
+	margin: 1em 2.8em;
 	text-align: center;
 }
     @media (max-width: 768px) { h3 { margin-top: 20px; } }
 
     h4 { font-family: 'Raleway', sans-serif; font-size: 18px; font-weight: 400; color: #7b99b3; margin-bottom: 25px; }
-    p { font-family: 'Raleway', sans-serif; font-size: 1.24em; color: #2E2E2E; }
+    p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.4em;
+	color: #2E2E2E;
+	margin: .9375em 2.8em;
+}
+	
+
+
 
     .content { width: 1060px; max-width: 90%; margin: 0px auto; }
     @media (max-width: 460px) { .content { max-width: 100%;} }
@@ -154,6 +162,32 @@
 
     .entries-link { font-family: 'Raleway', sans-serif; font-size: 18px; color: #004a8b; font-weight: bold; }
     /*vwo*/ /*vwo*/
+	  
+	img.image-center, img.image_center {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+	  
+	  ol, ul {
+    font-size: 1.4rem;
+    margin: 1.25em 6.25em 1.25em 5em;
+}
+	  li {
+    line-height: 1.7em;
+    margin-top: 1.25em;
+}
+	  li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+	font-size: 1em;
+}
+	  ul.checkmark, ul.ulcheckmark {
+    list-style-image: url(https://d13p2xj50zkyqm.cloudfront.net/scripts/assets/checkmark.png);
+}
+	  
+	  
   </style>
 </head>
 
@@ -167,44 +201,7 @@
        
         <h1>Headline Copy Like This <br>
           and Goes on for a Bit</h1>
-        <div class="video">
-          <img src="./images/video.jpg" class="img-responsive">
-        </div>
-        <a class="btn btn-main" href="">Add To Order</a>
-
-        <div class="testimonials">
-          <div class="">
-            <div class="testimonial">
-              <p>“Testimonial example text looks like this. It looks just like this. And goes on for a little bit.”</p>
-            </div>
-            <p class="author">- Joe Schmo, Austin, TX</p>
-          </div>
-          <div class="">
-            <div class="testimonial">
-              <p>“Testimonial example text looks like this. It looks just like this. And goes on for a little bit.”</p>
-            </div>
-            <p class="author">- Joe Schmo, Austin, TX</p>
-          </div>
-          <div class="">
-            <div class="testimonial">
-              <p>“Testimonial example text looks like this. It looks just like this. And goes on for a little bit.”</p>
-            </div>
-            <p class="author">- Joe Schmo, Austin, TX</p>
-          </div>
-          <div class="">
-            <div class="testimonial">
-              <p>“Testimonial example text looks like this. It looks just like this. And goes on for a little bit.”</p>
-            </div>
-            <p class="author">- Joe Schmo, Austin, TX</p>
-          </div>
-          <div class="">
-            <div class="testimonial">
-              <p>“Testimonial example text looks like this. It looks just like this. And goes on for a little bit.”</p>
-            </div>
-            <p class="author">- Joe Schmo, Austin, TX</p>
-          </div>
-        </div>
-        <!-- Testimonials End Here -->
+<!-- Testimonials End Here -->
         
  <p>Hi, Jim Rickards here.</p>
 
@@ -473,7 +470,7 @@ Black-Swan Events</h3>
 
 <p>You could have made&hellip;</p>
 
-<ul class="checkmark">
+<ul>
 	<li>$10,225 in JPM in about two weeks&hellip;</li>
 	<li>$5,750 in GERN in two weeks&hellip;</li>
 	<li>$5,320 in MBIA in a week&hellip;</li>
@@ -1103,9 +1100,7 @@ Little Guy</h3>
 <p>As the study describes&hellip;</p>
 
 <p class="indent">&ldquo;As prominent participants in the government decision making process, US senators are likely to have knowledge of forthcoming government actions before the information becomes public. This could provide them with <u><strong> an informational advantage over other investors.</strong></u>&rdquo;</p>
-</div>
 
-<p>&nbsp;</p>
 
 <p>The study&rsquo;s conclusion?</p>
 
